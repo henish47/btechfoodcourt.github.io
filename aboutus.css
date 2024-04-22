@@ -1,0 +1,245 @@
+body{
+
+}
+nav {
+    display: flex;
+    
+    margin-top: -10px;
+    height: 110px;
+    background: rgba(228, 202, 3, 0.945);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: rgb(185, 185, 4);
+    box-shadow: yellow;
+    box outline: border;
+    z-index: 1000;
+
+}
+.login {
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+.login ul li a{
+    justify-content: space-around;
+
+    margin-left: 20px
+}
+
+.login ul li {
+    text-align: center;
+    padding: 0px;
+    float: 200px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+.login:hover{
+    background-color: rgb(135, 136, 125);
+    color: rgb(35, 155, 248);
+    transition: 0.8s;
+}
+
+#gap{
+    display: flex;
+}
+
+nav .logo img {
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+    height: 110px;
+
+
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+}
+
+ nav ul li {
+    display: inline-block;
+    display: inline;
+    display: flex;
+    margin: 0 20px;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+}
+
+ nav ul li a::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #e20404;
+    display: block;
+    text-align: justify;
+    transition: 0.2s linear;
+    
+}
+
+ nav ul li a:hover:after {
+    width: 100%;
+}
+
+nav ul li a:hover {
+    color: #c20808;
+}
+.navimg img{
+    width: 1600px;
+    height: 400px;
+    margin-left: -600px;
+    margin-top: -300px;
+    opacity: 0.5;
+}
+.menu{
+    padding-top: 200px;
+    padding-left: 550px;
+    font-size: 100px;
+    color: burlywood;
+    margin-top: 00px;
+}
+.menu h3{
+    margin-top: -300px;
+    opacity: 0.9;
+    color: rgb(77, 57, 42);
+    text-shadow: 2px 6px  #b60505;;
+
+}
+.menu h3{
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.img{
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-bottom: -100px;
+}
+.container{
+    margin-top: px;
+    padding: -110px;
+}
+
+
+.p p{
+    justify-content: space-around;
+    padding: 100px;
+    margin-top: -500px;
+    margin-left: 500px;
+    font-size: 40px;
+    color: black;
+    width: 800px;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.footer{
+    justify-content: space-around;
+    display: flex;
+    border: 2px solid whitesmoke;
+    height: 250px;
+    background-color: rgb(202, 199, 199);
+    text-align: center;
+    margin-left: -10px;
+    margin-bottom: -0px;
+    width: 1510px;
+}
+.footer h3{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.location{
+    text-align: center;
+    font-size: 20px;
+    
+    
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+}
+.location h3{
+    font-size: 30px;
+}
+.location a{
+    text-decoration: none;
+    color: black;
+}
+.location ul li{
+    list-style: none;
+}
+.link{
+    text-align: center;
+    font-size: 20px;
+
+    padding left: 0px;
+    
+    list-style: none;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.link h3{
+    font-size: 30px;
+}
+.link  ul li{
+    list-style: none;
+}
+.contact{
+    text-align: center;
+    font-size: 25px;
+
+    padding left: 0px;
+
+}
+.contact h3{
+    font-size: 30px;
+    margin-left: 60px;
+}
+.contact ul li{
+    list-style: none;
+}
+.service{
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    padding left: 0px;
+
+}
+.service h3{
+    font-size: 30px;
+}
+.service ul li{
+    list-style: none;
+}
+.follows{
+    text-align: center;
+    font-size: 25px;
+    padding left: 0px;
+    
+}
+.follows ul{
+    margin-top: -30px;
+    list-style: none;
+}

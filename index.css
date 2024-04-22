@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+section nav {
+    height: 100px;
+    background: rgba(228, 202, 3, 0.945);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: rgb(185, 185, 4);
+    box-shadow: yellow;
+    box outline: border;
+    z-index:1000;
+
+}
+
+section nav .logo img {
+    width: 110px;
+    height: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+
+
+}
+
+section nav ul {
+    list-style: none;
+}
+
+section nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+section nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+}
+
+section nav ul li a::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #e20404;
+    display: block;
+    text-align: justify;
+    transition: 0.2s linear;
+
+}
+
+section nav ul li a:hover:after {
+    width: 100%;
+}
+
+section nav ul li a:hover {
+    color: #c20808;
+}
+
+.login {
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login ul li {
+    text-align: center;
+    padding: 0px;
+    float: 200px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+.login:hover{
+    background-color: rgb(135, 136, 125);
+    color: rgb(35, 155, 248);
+    transition: 0.8s;
+}
+
+.container {
+    height: 1000px;
+    width: 1519px;
+    background-color: white
+}
+
+.container-1 {
+    padding-top: 200px;
+    margin-right: 200px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.container-1 p {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 30px;
+    color: black;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.container-1 img {
+    padding-top: -100px;
+    margin-bottom: 200px;
+    margin-top: -20px;
+}
+
+.container-1 h1 {
+    margin-left: 10px;
+    margin-right: -10px;
+    margin-top: -70px;
+    padding-top: -0px;
+    float: -200px;
+    width: -200px;
+}
+
+#box-1 {
+    height: 100px;
+    width: 400px;
+    padding-top: 200px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+    font-size: 50px;
+}
+
+#food {
+    display: inline;
+    color: orange;
+}
+
+#box-2 {
+    padding-top: 0px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: -110px;
+    /* text-shadow:2px 2px black; */
+}
+
+#order {
+    width: 100px;
+    height: 40px;
+    margin-top: -390px;
+    float: inline-start;
+    padding-left: 0px;
+    margin-left: 100px;
+    background-color: rgb(185, 185, 4);
+    color: #000;
+    border: 2px solid rgb(185, 185, 4);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about {
+    margin-top: -500px;
+    margin-left: 700px;
+    height: 30px;
+}
+
+.about img {
+    height: 60px;
+    width: 250px;
+    margin-top: 50px;
+}
+
+.chose {
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+.chose img {
+    height: 60px;
+    width: 400px;
+    margin-top: 60px;
+}
+
+.p p {
+    margin-left: 600px;
+    margin-top: 100px;
+    font-size: 40px;
+    color: aliceblue;
+    width: 800px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    height: 300px;
+    background-color: rgb(202, 199, 199);
+    text-align: center;
+    margin-left: -10px;
+    margin-bottom: -0px;
+    width: 1510px;
+}
+
+
+.location {
+    text-align: center;
+    font-size: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.location h3 {
+    font-size: 30px;
+}
+
+.location a {
+    text-decoration: none;
+    color: black;
+}
+
+.location ul li {
+    list-style: none;
+}
+
+.link {
+    text-align: center;
+    font-size: 20px;
+
+    padding-left: 0px;
+
+    list-style: none;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+.link h3 {
+    font-size: 30px;
+}
+
+.link ul li {
+    list-style: none;
+}
+
+.contact {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    padding-left: 0px;
+
+}
+
+.contact h3 {
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+.service {
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+.service h3 {
+    font-size: 30px;
+}
+
+.service ul li {
+    list-style: none;
+}
+
+.follows {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    padding-left: 0px;
+
+}
+
+.follows ul {
+    margin-top: -30px;
+    list-style: none;
+}
+
+.footer h3 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
